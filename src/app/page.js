@@ -3,6 +3,7 @@ import Journey from "./components/Journey";
 import Services from "./components/Services";
 import Hero from "./components/Hero";
 import About from "./components/About";
+import Product from "./components/Product";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <About/>
         <Journey/>
         <Services/>
+        <Product/>  
       </div>
       
     </div>

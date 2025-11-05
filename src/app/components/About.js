@@ -17,9 +17,9 @@ export default function About() {
       {/* Left Section - Image */}
       <div className="flex justify-center">
         <Image
-          src="/palette.jpg"
-          width={350}
-          height={350}
+          src="/bhargavi.jpg"
+          width={250}
+          height={250}
           alt="journey image"
           className="rounded-2xl w-64 sm:w-80 md:w-96 object-cover"
         />

@@ -10,7 +10,7 @@ export default function Journey() {
   return (
     <div className="px-6 sm:px-10 lg:px-20 py-10">
       {/* Title */}
-      <div className="text-center text-4xl sm:text-5xl mb-10 font-extrabold text-[#0874AE]">
+      <div className="text-center text-4xl sm:text-5xl mb-10 font-extrabold ">
         About Me
       </div>
 
