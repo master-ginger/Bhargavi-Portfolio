@@ -7,6 +7,7 @@ export async function GET(){
     try{
         await connectDB();
         const products = await Product.find();
+        
         return new Response(JSON.stringify({success:true,products}),{
       status: 200,
       headers: { "Content-Type": "application/json" },
