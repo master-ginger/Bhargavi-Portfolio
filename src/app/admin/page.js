@@ -28,7 +28,7 @@ export default function Admin() {
 
     formData.append("upload_preset", "your_upload_preset");
 
-  const res = await fetch("https://api.cloudinary.com/v1_1/<cloud_name>/image/upload", {
+  const res = await fetch("https://api.cloudinary.com/v1_1/djgn6hpxm/image/upload", {
     method: "POST",
     body: formData,
   });
