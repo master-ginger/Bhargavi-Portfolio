@@ -26,13 +26,15 @@ export default function Admin() {
     const formData = new FormData();
     formData.append("file", file);
 
-    const res = await fetch("/api/upload", {
-      method: "POST",
-      body: formData,
-    });
+    formData.append("upload_preset", "your_upload_preset");
 
-    const data = await res.json();
-    return data.url;
+  const res = await fetch("https://api.cloudinary.com/v1_1/<cloud_name>/image/upload", {
+    method: "POST",
+    body: formData,
+  });
+
+  const data = await res.json();
+  return data.secure_url;
   };
 
   // ✔ Submit Product
