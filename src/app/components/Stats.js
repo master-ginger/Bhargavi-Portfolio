@@ -44,10 +44,10 @@ function Counter({ to = 0, duration = 1.6 }) {
 
 export default function StatsSection() {
   const stats = [
-    { label: "Artworks Created", value: 120 },
-    { label: "Happy Clients", value: 45 },
-    { label: "Years of Experience", value: 5 },
-    { label: "Custom Commissions", value: 32 },
+    { label: "Artworks Created", value: 100 },
+    { label: "Happy Clients", value: 20 },
+    { label: "Years of Experience", value: 3 },
+    { label: "Custom Commissions", value: 20 },
   ];
 
   return (
