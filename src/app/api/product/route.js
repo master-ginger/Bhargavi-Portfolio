@@ -1,6 +1,7 @@
 import { connectDB } from "../../../../lib/mongodb";
 import Product from "../../models/Product";
 
+//the mongo db connection password for the cluster
 var mongo_pass ="ZNxTMt7sikW4YOLT";
 export async function GET(){
     try{
