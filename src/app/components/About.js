@@ -66,7 +66,9 @@ export default function About() {
           <div className="text-2xl sm:text-3xl font-bold text-[#0874AE] mb-2">
             Education
           </div>
-          <div className="text-gray-300">Bachelor of Fine Arts — Pune University</div>
+          <div className="text-gray-300">BFA Applied Arts</div>
+          <div className="text-gray-300">Art Teacher Diploma</div>
+          
         </div>
       </div>
 
@@ -89,7 +91,7 @@ export default function About() {
             Experience
           </div>
           <div className="text-gray-300">
-            <div>Art Teacher — 2 years of guiding young creators 🎨</div>
+            <div>Art Teacher at VKMate High School 🎨</div>
           </div>
         </div>
       </div>
