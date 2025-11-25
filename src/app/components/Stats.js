@@ -83,6 +83,14 @@ export default function StatsSection() {
                        hover:bg-[#0874AE] hover:text-white transition-all duration-300">
       Check Pricing
     </button>
+
+    
+  </Link>
+  <Link href='/productsPage'>
+  <button className="px-8 py-3 ml-10 rounded-full border hover:bg-black hover:border-[#0874AE] hover:text-[#0874AE] font-semibold 
+                       bg-[#0874AE] text-white transition-all duration-300">
+      View Products
+    </button>
   </Link>
 </div>
 
